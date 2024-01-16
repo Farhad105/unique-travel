@@ -14,12 +14,13 @@
 .manu h3{
     color: #131318;
     font-size: 36px;
-    font-weight: 800
+    font-weight: 800;
 }
 .unique{
     color: #FF5400;
     font-size: 36px;
     font-weight: 800;
+    
 }
 .manu ul{
     display: flex;
@@ -74,6 +75,11 @@
     width: 120px;
     margin-left: 5px;
 }
+#last{
+    background-color: #FF5400;
+}
+
+
 /* main style */
 
 .main{
@@ -226,7 +232,7 @@ hr{
     color: #fff;
     line-height: 10px;
     padding: 10px;
-    position:
+   
 }
 /* Destination style */
 
@@ -290,7 +296,6 @@ hr{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: ;
 }
 
 .footer-titel h3{
@@ -328,11 +333,12 @@ hr{
         padding: 10px;
     }
     .manu img{
-        border: 2px solid teal;
+        display: none;
     }
     .banner{
         flex-direction: column;
         width: 100%;
+        
     }
     .banner img{
         width: 50%;
@@ -341,9 +347,13 @@ hr{
         border-radius: 16px;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
     }
+    .serch{
+        width: 100%;
+        background: none;
+    }
    .serch input{
     width: 50%;
-    margin-left: 70px;
+    margin-left: 100px;
    }
     .banner-back h2{
         padding: 20px 10px 10px;
@@ -354,21 +364,31 @@ hr{
     }
     .main{
         flex-direction: column;
+        width: 50%;
+        margin-left: 0px;
+    }
+    .Tours-section{
+        width: 100%;
+    }
+    .Tours-img{
+        width: 100%;
+    }
+    .Destination{
+        width: 50%;
     }
     .Destination h3{
-        width: 50%;
+        width: 100%;
     }
     .Destination p{
-        width: 50%;
+        width: 100%;
         padding: 10px;
     }
     .Destination-img{
         width: 50%;
     }
     .grid-item-1, .grid-item-2, .grid-item-3,.grid-item-4,.grid-item-5, .grid-item-6, .grid-item-7{
-        grid-column: 1/24 span;  
+        grid-column: 1/46 span;  
     }
-   
     .Choose-Us{
         width: 50%;
     }
@@ -384,14 +404,14 @@ hr{
     }
     .Newsletter{
         flex-direction: column;
-        width: 95%;
+        width: 50%;
         margin-left: 10px;
     }
     .travel-news{
-        height: 50%;
+        width: 90%;
     }
     .travel-img{
-        width: 52%;
+        width: 100%;
     }
     .all-footer p{
         padding: 10px;
