@@ -329,6 +329,9 @@ hr{
   }
   
 @media screen and (max-width : 576px) {
+    .main-section{
+        width: 100%;
+    }
     .manu{
         flex-direction: column;
         padding: 10px;
@@ -339,10 +342,10 @@ hr{
     .banner{
         flex-direction: column;
         width: 100%;
-        
     }
     .banner img{
-        width: 50%;
+        width: 100%;
+        height: 100%;
     }
     .banner-back{
         border-radius: 16px;
@@ -365,7 +368,7 @@ hr{
     }
     .main{
         flex-direction: column;
-        width: 50%;
+        width: 100%;
         margin-left: 0px;
     }
     .Tours-section{
@@ -375,23 +378,23 @@ hr{
         width: 100%;
     }
     .Destination{
-        width: 50%;
+        width: 100%;
     }
     .Destination h3{
         width: 100%;
     }
     .Destination p{
-        width: 100%;
+        width: 98%;
         padding: 10px;
     }
     .Destination-img{
-        width: 50%;
+        width: 100%;
     }
     .grid-item-1, .grid-item-2, .grid-item-3,.grid-item-4,.grid-item-5, .grid-item-6, .grid-item-7{
         grid-column: 1/46 span;  
     }
     .Choose-Us{
-        width: 50%;
+        width: 100%;
     }
     .Choose-Us> p{
         padding: 10px;
@@ -405,7 +408,7 @@ hr{
     }
     .Newsletter{
         flex-direction: column;
-        width: 50%;
+        width: 100%;
         margin-left: 10px;
     }
     .travel-news{
@@ -417,5 +420,7 @@ hr{
     .all-footer p{
         padding: 10px;
     }
-   
+   .end{
+    width: 100%;
+   }
 }
