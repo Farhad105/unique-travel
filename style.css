@@ -2,8 +2,6 @@
     width: 920px;
     margin: 0 auto;
 }
-
-
 .manu{
     padding: 50px 200px;
     display: flex;
@@ -126,11 +124,11 @@ padding: 10px 20px;
 }
 .Choose-Us> p{
     color: rgba(19, 19, 24, 0.70);
-padding: 0 150px;
-text-align: center;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
+    padding: 0 150px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
 }
 .Choose-service{
     display: flex;
@@ -144,9 +142,9 @@ line-height: 26px;
 }
 .Handpicked-Hotels p, .Class-Service p, .Guarantee p{
     color: #5A5A5D;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px
 }
 .Handpicked-Hotels{
     border-radius: 16px;
@@ -155,10 +153,10 @@ line-height: 26px
     padding: 20px;
 }
 .Class-Service{
-border-radius: 16px;
-border: 1px solid rgba(41, 206, 246, 0.20);
-background: rgba(41, 206, 246, 0.05);
-padding: 20px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 20px;
 }
 .Guarantee{
     border-radius: 16px;
@@ -189,9 +187,9 @@ padding: 20px;
 }
 .travel-news p{
     color: #5A5A5D;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px
 }
 hr{
     width: 80%;
@@ -324,12 +322,79 @@ hr{
    margin: 50px;
   }
   
-@media screen and(max-width : 576px) {
+@media screen and (max-width : 576px) {
     .manu{
         flex-direction: column;
+        padding: 10px;
+    }
+    .manu img{
+        border: 2px solid teal;
     }
     .banner{
         flex-direction: column;
-        width: 400px;
+        width: 100%;
     }
+    .banner img{
+        width: 50%;
+    }
+    .banner-back{
+        border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    }
+   .serch input{
+    width: 50%;
+    margin-left: 70px;
+   }
+    .banner-back h2{
+        padding: 20px 10px 10px;
+        font-size: 40px;
+    }
+    .banner-back p{
+        padding: 0px ;
+    }
+    .main{
+        flex-direction: column;
+    }
+    .Destination h3{
+        width: 50%;
+    }
+    .Destination p{
+        width: 50%;
+        padding: 10px;
+    }
+    .Destination-img{
+        width: 50%;
+    }
+    .grid-item-1, .grid-item-2, .grid-item-3,.grid-item-4,.grid-item-5, .grid-item-6, .grid-item-7{
+        grid-column: 1/24 span;  
+    }
+   
+    .Choose-Us{
+        width: 50%;
+    }
+    .Choose-Us> p{
+        padding: 10px;
+    }
+    .Choose-service{
+        flex-direction: column;
+        width: 100%;
+    }
+    .Guarantee{
+        width: 90%;
+    }
+    .Newsletter{
+        flex-direction: column;
+        width: 95%;
+        margin-left: 10px;
+    }
+    .travel-news{
+        height: 50%;
+    }
+    .travel-img{
+        width: 52%;
+    }
+    .all-footer p{
+        padding: 10px;
+    }
+   
 }
