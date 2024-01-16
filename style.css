@@ -9,6 +9,7 @@
     justify-content: space-between;
     align-items: center;
     width: 920px;
+    margin: 0 auto;
 }
 .manu img{
     margin-right: -200px;
@@ -337,6 +338,7 @@ hr{
     .manu{
         flex-direction: column;
         padding: 10px;
+        width: 100%;
     }
     .manu img{
         display: none;
