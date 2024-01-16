@@ -356,8 +356,8 @@ hr{
         background: none;
     }
    .serch input{
-    width: 50%;
-    margin-left: 100px;
+        width: 50%;
+        margin-left: 100px;
    }
     .banner-back h2{
         padding: 20px 10px 10px;
@@ -382,6 +382,7 @@ hr{
     }
     .Destination h3{
         width: 100%;
+        font-size: 30px;
     }
     .Destination p{
         width: 98%;
