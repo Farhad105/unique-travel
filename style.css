@@ -1,3 +1,4 @@
+nav{}
 .main-section{
     width: 920px;
     margin: 0 auto;
@@ -328,7 +329,7 @@ hr{
    margin: 40px auto;
   }
   
-@media screen and (max-width : 576px) {
+@media screen and (max-width:576px) {
     .main-section{
         width: 100%;
     }
