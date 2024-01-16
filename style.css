@@ -8,8 +8,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 920px;
-    margin: 0 auto;
+    /* width: 920px;
+    margin: 0 auto; */
 }
 .manu img{
     margin-right: -200px;
